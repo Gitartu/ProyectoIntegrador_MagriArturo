@@ -16,6 +16,15 @@ header{
     align-items: center;
     padding-left: 25px;
 }
+footer{
+    background-color: #424242;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #F2F2F2;
+    height: 400;
+}
 span{
     font-weight: bold;
 }
@@ -80,19 +89,6 @@ span{
     padding-left: 20%;
     padding-right: 20%;
 }
-.aptitudes{
-    width: 50%;
-}
-.tech-list{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
-}
-
-.tech{
-    height: 90px;
-}
-
 .tres{
     background-color: #F2F2F2;
     height: auto;
@@ -112,7 +108,7 @@ span{
     color: #303030;
     padding-left: 10%;
     padding-right: 10%;
-    text-align: center<
+    text-align: center
 }
 .items{
     width: 60%;
@@ -147,19 +143,11 @@ span{
     background-color: #F2F2F2;
     border-radius: 10px;
 }
-footer{
-    background-color: #424242;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    color: #F2F2F2;
-    height: 200px;
-}
 .contacto{
     width: 30%;
     display: flex;
     justify-content: center;
+    height: auto;
 }
 
 @media (max-width: 1000px) {
@@ -177,15 +165,15 @@ footer{
         height: 50%;
         align-items: flex-start;
     }
-    .aptitudes{
-        width: auto;
-    }
     .dos{
         height: auto;
         padding: 0 10px 10px 10px;
 
     }
     .tres{
+        height: auto;
+    }
+    .cuatro{
         height: auto;
     }
     .items{
