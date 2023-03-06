@@ -28,6 +28,12 @@ footer{
 span{
     font-weight: bold;
 }
+button{
+    height: 75px;
+    width: 100px;
+    opacity: 100%;
+    background-color: #3b64df;
+}
 .cara{
     border-radius: 500px;
     height: 200px;
@@ -115,6 +121,11 @@ span{
     display: flex;
     justify-content: space-between;
 }
+.formulario{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
 .card{
     text-align: center;
     width: 30%;
@@ -150,7 +161,6 @@ span{
     height: auto;
     padding: 20px;
 }
-
 @media (max-width: 1000px) {
     .caja-central{
         width: 90%;
@@ -185,6 +195,10 @@ span{
         padding-bottom: 20px;
     }
     .card{
+        width: 80%;
+        margin-top: 20px;
+    }
+    .cardos{
         width: 80%;
         margin-top: 20px;
     }
