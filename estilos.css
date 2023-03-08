@@ -7,14 +7,19 @@
 body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    padding-top: 65px
 }
 header{
     height: 65px;
-    background-color: #3b64dfb6;
+    background-color: #303030;
     color: white;
     display: flex;
     align-items: center;
     padding-left: 25px;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
 }
 footer{
     background-color: #424242;
@@ -27,12 +32,13 @@ footer{
 }
 span{
     font-weight: bold;
-}
+}   
 button{
-    height: 75px;
+    height: 65px;
     width: 100px;
     opacity: 100%;
     background-color: #3b64df;
+    border-color: #F2F2F2;
 }
 .cara{
     border-radius: 500px;
@@ -124,7 +130,7 @@ button{
 .formulario{
     width: 60%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .card{
     text-align: center;
@@ -139,6 +145,7 @@ button{
     border: solid #F2F2F2 1px;
     border-radius: 10px;
     padding: 10px;
+    justify-content: center;
 }
 .card img{
     width: 100%;
@@ -199,8 +206,8 @@ button{
         margin-top: 20px;
     }
     .cardos{
-        width: 80%;
-        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
     }
     .red-social{
         margin: 0 10px 0 10px;
