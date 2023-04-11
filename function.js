@@ -15,5 +15,5 @@ function clickBoton() {
         console.log("El usuario hizo click en el boton");
         document.getElementById('enviado').style.display = 'block';
         console.log(input.value)
-        alert("Mensaje enviado!" + " " +input.value)
+        alert("Mensaje enviado:" + " " +input.value)
 }
